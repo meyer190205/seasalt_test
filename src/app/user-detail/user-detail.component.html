@@ -1,0 +1,31 @@
+<div *ngIf="user">
+    <h2>User Details</h2>
+    <div>
+        <label for="user-id">ID: </label>
+        <input class="tab0" id="user-id" [(ngModel)]="user.id" placeholder="id" disabled>
+    </div>
+    <div>
+        <label for="user-name">User name: </label>
+        <input class="tab1" id="user-name" [(ngModel)]="user.name" placeholder="name">
+    </div>
+    <div>
+        <label for="user-address">Address: </label>
+        <input class="tab2" id="user-address" [(ngModel)]="user.address" placeholder="address">
+    </div>
+    <div>
+        <label for="user-phone">Phone: </label>
+        <input class="tab3" id="user-phone" [(ngModel)]="user.phone" placeholder="phone">
+    </div>
+    <div>
+        <label for="user-picture">Picture: </label>
+        <input class="tab4" id="user-picture" [(ngModel)]="user.picture" placeholder="picture">
+    </div>
+    <div>
+        <label for="user-created">Created At: </label>
+        <input class="tab5" id="user-created" [(ngModel)]="user.created_at" placeholder="created">
+    </div>
+
+    <button type="button" (click)="save()">save</button>
+
+    <button type="button" (click)="goBack()">go back</button>
+</div>

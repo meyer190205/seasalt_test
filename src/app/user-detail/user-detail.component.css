@@ -1,0 +1,59 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+    color: #435960;
+    font-weight: bold;
+}
+
+input {
+    font-size: 1em;
+    padding: .5rem;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: .5rem;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
+
+.tab0 {
+    margin-left: 73px;
+}
+
+.tab1 {
+    margin-left: 7px;
+}
+
+.tab2 {
+    margin-left: 25px;
+}
+
+.tab3 {
+    margin-left: 40px;
+}
+
+.tab4 {
+    margin-left: 35px;
+}
+
+.tab5 {
+    margin-left: 9px;
+}
+  
+  /*
+  Copyright Google LLC. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at https://angular.io/license
+  */

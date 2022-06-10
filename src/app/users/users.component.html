@@ -1,0 +1,13 @@
+<div>
+  <br>
+  <label for="new-user">User name: </label>
+  <input id="new-user" #userName />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <br>
+  <a routerLink="/dashboard">
+    <button type="button" class="add-button" (click)="add(userName.value); userName.value=''">
+      Add user
+    </button>
+  </a>
+</div>
